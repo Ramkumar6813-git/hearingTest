@@ -5,16 +5,16 @@ import PropTypes from "prop-types";
 const leftSideAudioFiles = [
   "/src/assets/250 L.wav",
   "/src/assets/500 L.wav",
-  // "/src/assets/1000 L.wav",
-  // "/src/assets/2000 L.wav",
-  // "/src/assets/4000 L.wav",
+  "/src/assets/1000 L.wav",
+  "/src/assets/2000 L.wav",
+  "/src/assets/4000 L.wav",
 ];
 const rightSideAudioFiles = [
   "/src/assets/250 R.wav",
   "/src/assets/500 R.wav",
-  // "/src/assets/1000 R.wav",
-  // "/src/assets/2000 R.wav",
-  // "/src/assets/4000 R.wav",
+  "/src/assets/1000 R.wav",
+  "/src/assets/2000 R.wav",
+  "/src/assets/4000 R.wav",
 ];
 
 function AudioPlayer({ setAudioIndexPosition, setLeftSideAudioPlaying }) {

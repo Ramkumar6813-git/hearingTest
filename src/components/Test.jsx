@@ -4,7 +4,7 @@ import Header from "./Header";
 import AudioPlayer from "./AudioPlayer";
 import { useState } from "react";
 
-let numsArray = [1, 2, 3, 4];
+let numsArray = [1, 2, 3, 4, 5];
 
 const Test = () => {
   const [audioIndexPosition, setAudioIndexPosition] = useState(0);

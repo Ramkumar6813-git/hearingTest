@@ -8,6 +8,7 @@ import Test from "./components/Test";
 import Results from "./components/Results";
 
 import "./App.css";
+import TestCompleteForm from "./components/TestCompleteForm";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
   {
     path: "/results",
     element: <Results />,
+  },
+  {
+    path: "/testCompleteForm",
+    element: <TestCompleteForm />,
   },
 ]);
 

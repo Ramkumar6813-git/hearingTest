@@ -7,9 +7,9 @@ import { Link } from "react-router-dom";
 
 const Testing = () => {
   return (
-    <div className="h-screen bg-gradient-to-bl from-cyan-500 to-blue-500 flex flex-col justify-between">
+    <div className="h-screen bg-gradient-to-bl from-cyan-500 to-blue-500 flex flex-col justify-between overflow-x-hidden">
       <Header title={"Patralex Hearing Test"} />
-      <div className=" flex flex-col justify-around items-center flex-grow p-10">
+      <div className="container mx-auto flex flex-col justify-around items-center flex-grow p-10">
         <div className="flex flex-col text-center items-center text-gray-100 ">
           <FaInfoCircle size={30} className="text-white my-3" />
           <p className="tracking-wide mb-1 mt-2 text-lg">

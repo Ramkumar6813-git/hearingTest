@@ -72,14 +72,3 @@ const Test = () => {
 };
 
 export default Test;
-
-// const values = {
-//   leftSideHearing: {
-//     "250hz": [timeInterval1, timeInterval2, timeInterval3, timeInterval4],
-//     "500hz": [timeInterval1, timeInterval2, timeInterval3, timeInterval4],
-//   },
-//   rightSideHearing: {
-//     "250hz": [timeInterval1, timeInterval2, timeInterval3, timeInterval4],
-//     "500hz": [timeInterval1, timeInterval2, timeInterval3, timeInterval4],
-//   },
-// };
